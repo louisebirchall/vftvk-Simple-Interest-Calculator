@@ -42,7 +42,7 @@ input[type=number] {
 }
 
 mark {
-  background-color: aquamarine;
+  background-color: lightyellow;
   /* I think light greens are easier on the eyes than bright yellow
     also we just want to show the numbers, not blare them in your face  */
 }
