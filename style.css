@@ -1,4 +1,53 @@
-body {background-color:tan;}
-h1{color:green;}
+html,
+body {
+  height: 99%;
+}
 
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
 
+h1 {
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.maindiv {
+  background-color: white;
+  color: black;
+  width: 300px;
+  padding: 20px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+
+/* I don't like the arrows either, it makes people think they have to click on them */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+mark {
+  background-color: aquamarine;
+  /* I think light greens are easier on the eyes than bright yellow
+    also we just want to show the numbers, not blare them in your face  */
+}
+
+.footer {
+  margin-top: auto;
+  /* I want the footer to stay at the bottom of the page */
+}
